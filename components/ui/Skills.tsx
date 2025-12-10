@@ -1,10 +1,14 @@
 'use client'
 import { skills } from '@/data';
 import { motion } from 'framer-motion';
+import PixelBlast from '../PixelBlast';
 
 const SkillsSection = () => {
   return (
-    <section id="skills" className="min-h-screen bg-[#060010] py-20 px-6 font-['Orbitron']">
+    <section id="skills" className="min-h-screen bg-[#060010] py-20 px-6 font-['Orbitron'] relative">
+        <div>
+            
+        </div>
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -23,7 +27,7 @@ const SkillsSection = () => {
               key={index}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.05 }}
+              transition={{ duration: 0.5, delay: 0.05 }}
               viewport={{ once: true }}
               whileHover={{ y: -8, scale: 1.05 }}
               className="group cursor-pointer"
@@ -33,7 +37,7 @@ const SkillsSection = () => {
                   <img 
                     src={skill.icon} 
                     alt={skill.name}
-                    className="w-full h-full object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300"
+                    className="w-full h-full object-contain filter grayscale group-hover:grayscale-0 transition-all duration-50"
                   />
                 </div>
                 <h3 className="text-gray-400 text-xs text-center tracking-wider group-hover:text-purple-300 transition-colors">
