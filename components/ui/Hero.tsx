@@ -38,7 +38,7 @@ const HeroSection = () => {
                  />
                 <div className="relative">
                     <TextType 
-                        className="text-xl md:text-3xl font-semibold"
+                        className="text-xl md:text-3xl"
                         text={[
                             "Web Developer",
                             "Fullstack Developer",
