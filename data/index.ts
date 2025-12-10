@@ -1,76 +1,76 @@
 export const projects : Project[]= [
-		{
-			title: 'Tuition Management System',
-			description: 'A comprehensive platform designed to streamline student billing, track payments, and manage tuition information efficientl.',
-			tags: ['Typescript','React.js','Tailwind CSS','Material UI','Node.js','Express.js','MongoDB'],
-			features: [
-				"Student Enrollment Management",
-				"Tuition and Payment Tracking",
-				"Overdue Payment Email Notifications",
-				"Scholarship and Discount Handling",
-				"Role-based Access Control"
-			],
-			images: [
-				'/images/tuition-home.png',
-				'/images/tuition-enrolled-subjects.png',
-				'/images/tuition-payment-history.png',
-				'/images/tuition-dashboard.png',
-				'/images/tuition-students.png',
-				'/images/tuition-payments.png',
-				'/images/tuition-receipt.png',
-				'/images/tuition-profile.png'
-			],
-			githubLink: 'https://github.com/lindsey5/TuitionManagementSystem/tree/main',
-			websiteLink: 'https://tuitionmanagementsystem.onrender.com/'
-		},
-		{
-			title: 'Unified Student Grades Information System',
-			description: 'A web-based platform designed to simplify academic management, streamline grade tracking, and empower students and faculty with real-time insights into academic performance.',
-			tags: ['Typescript','React.js', 'Tailwind CSS', 'Material UI', 'Node.js', 'Express.js', 'MongoDB'],
-			features: [
-				"Student GWA Rankings",
-				"Student Grades Management",
-				"Data Analytics Dashboard",
-				"Role-based access control",
-				"Course and Subjects Management",
-			],
-			images: [
-				'/images/usgis-home.png',
-				'/images/usgis-login.png',
-				'/images/usgis-grades.png',
-				'/images/usgis-rankings.png',
-				'/images/usgis-dashboard.png',
-				'/images/usgis-students.png',
-				'/images/usgis-edit-student.png',
-				'/images/usgis-profile.png'
+	{
+		title: 'Tuition Management System',
+		description: 'A comprehensive platform designed to streamline student billing, track payments, and manage tuition information efficientl.',
+		tags: ['Typescript','React.js','Tailwind CSS','Material UI','Node.js','Express.js','MongoDB'],
+		features: [
+			"Student Enrollment Management",
+			"Tuition and Payment Tracking",
+			"Overdue Payment Email Notifications",
+			"Scholarship and Discount Handling",
+			"Role-based Access Control"
+		],
+		images: [
+			'/images/tuition-home.png',
+			'/images/tuition-enrolled-subjects.png',
+			'/images/tuition-payment-history.png',
+			'/images/tuition-dashboard.png',
+			'/images/tuition-students.png',
+			'/images/tuition-payments.png',
+			'/images/tuition-receipt.png',
+			'/images/tuition-profile.png'
+		],
+		githubLink: 'https://github.com/lindsey5/TuitionManagementSystem/tree/main',
+		websiteLink: 'https://tuitionmanagementsystem.onrender.com/'
+	},
+	{
+		title: 'Unified Student Grades Information System',
+		description: 'A web-based platform designed to simplify academic management, streamline grade tracking, and empower students and faculty with real-time insights into academic performance.',
+		tags: ['Typescript','React.js', 'Tailwind CSS', 'Material UI', 'Node.js', 'Express.js', 'MongoDB'],
+		features: [
+			"Student GWA Rankings",
+			"Student Grades Management",
+			"Data Analytics Dashboard",
+			"Role-based access control",
+			"Course and Subjects Management",
+		],
+		images: [
+			'/images/usgis-home.png',
+			'/images/usgis-login.png',
+			'/images/usgis-grades.png',
+			'/images/usgis-rankings.png',
+			'/images/usgis-dashboard.png',
+			'/images/usgis-students.png',
+			'/images/usgis-edit-student.png',
+			'/images/usgis-profile.png'
 
-			],
-			githubLink: 'https://github.com/lindsey5/Unified-Student-Grades-Information-System',
-			websiteLink: 'https://tcu-usgis.onrender.com'
-		},
-		{
-			title: "RM Collections POS and Inventory Management System",
-			description: 'An intelligent system that streamlines sales and inventory management for RM Collections, featuring predictive analytics to forecast demand and optimize stock levels.',
-			tags: ['Javascript', 'Python', 'React.js', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB', 'Flask', 'RandomForest'],
-			features: [
-				"Predictive analytics for sales trends and product demand forecasting",
-				"Real-time low-stock notifications",
-				"Point of Sale System with barcode scanner",
-				"Sales Analytics Dashboard",
-				"Admin and cashier management",
-			],
-			images: [
-				"/images/rm-login.png",
-				"/images/rm-dashboard.png",
-				"/images/rm-products.png",
-				"/images/rm-product.png",
-				"/images/rm-sales.png",
-				"/images/rm-receipt.png",
-				"/images/rm-pos.png"
-			],
-			githubLink: 'https://github.com/AaronRodriguezzz/POS_INVENTORY'
-		},
-		{
+		],
+		githubLink: 'https://github.com/lindsey5/Unified-Student-Grades-Information-System',
+		websiteLink: 'https://tcu-usgis.onrender.com'
+	},
+	{
+		title: "RM Collections POS and Inventory Management System",
+		description: 'An intelligent system that streamlines sales and inventory management for RM Collections, featuring predictive analytics to forecast demand and optimize stock levels.',
+		tags: ['Javascript', 'Python', 'React.js', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB', 'Flask', 'RandomForest'],
+		features: [
+			"Predictive analytics for sales trends and product demand forecasting",
+			"Real-time low-stock notifications",
+			"Point of Sale System with barcode scanner",
+			"Sales Analytics Dashboard",
+			"Admin and cashier management",
+		],
+		images: [
+			"/images/rm-login.png",
+			"/images/rm-dashboard.png",
+			"/images/rm-products.png",
+			"/images/rm-product.png",
+			"/images/rm-sales.png",
+			"/images/rm-receipt.png",
+			"/images/rm-pos.png"
+		],
+		githubLink: 'https://github.com/AaronRodriguezzz/POS_INVENTORY'
+	},
+	{
 		title: 'Ballin Wear E-commerce Web Application',
 		description: 'A web-based platform that enables online product sales and efficient inventory tracking for Ballin Wear.',
 		tags: ['Javascript','React.js', 'Tailwind CSS', 'Material UI', 'Node.js', 'Express.js', 'MySQL', 'Gemini API', 'Langchain', 'Paymongo API', 'Socket.IO'],
@@ -338,53 +338,53 @@ export const projects : Project[]= [
 ];
 
 export const skills: Skill[] = [
-  { name: 'HTML', icon: '/icons/html.png'},
-  { name: 'CSS', icon: '/icons/css.png'},
-  { name: 'Javascript', icon: '/icons/js.svg' },
-  { name: 'TypeScript', icon: '/icons/ts.png' },
-  { name: 'Tailwind CSS', icon: '/icons/tailwind.png' },
-  { name: 'Java', icon: '/icons/java.png' },
-  { name: 'C#', icon: '/icons/cs.png' },
-  { name: 'Python', icon: '/icons/python.webp'},
-  { name: 'VB.net', icon: '/icons/vb.png'},
-  { name: 'PHP', icon: '/icons/php.png'},
-  { name: 'React.js', icon: '/icons/react.webp'},
-  { name: 'Next.js', icon: '/icons/next.webp'},
-  { name: 'Material UI', icon: '/icons/mui.svg'},
-  { name: 'Node.js', icon: '/icons/node.png'},
-  { name: 'Express.js', icon: '/icons/express.png'},
-  { name: '.NET', icon: '/icons/net.png'},
-  { name: 'FastAPI', icon: '/icons/fastapi.png'},
-  { name: 'Flask', icon: '/icons/flask.png'},
-  { name: 'MySQL', icon: '/icons/mysql.svg'},
-  { name: 'MongoDB', icon: '/icons/mongodb.webp'},
-  { name: 'Git', icon: '/icons/git.png'},
-  { name: 'Github', icon: '/icons/github.webp'},
-  { name: 'Postman', icon: '/icons/postman.webp'},
-  { name: 'Expo', icon: '/icons/expo.png'},
-  { name: 'Socket-io', icon: '/icons/socket-io.svg'},
-  { name: 'Langchain', icon: '/icons/langchain.png'},
+	{ name: 'HTML', icon: '/icons/html.png'},
+	{ name: 'CSS', icon: '/icons/css.png'},
+	{ name: 'Javascript', icon: '/icons/js.svg' },
+	{ name: 'TypeScript', icon: '/icons/ts.png' },
+	{ name: 'Tailwind CSS', icon: '/icons/tailwind.png' },
+	{ name: 'Java', icon: '/icons/java.png' },
+	{ name: 'C#', icon: '/icons/cs.png' },
+	{ name: 'Python', icon: '/icons/python.webp'},
+	{ name: 'VB.net', icon: '/icons/vb.png'},
+	{ name: 'PHP', icon: '/icons/php.png'},
+	{ name: 'React.js', icon: '/icons/react.webp'},
+	{ name: 'Next.js', icon: '/icons/next.webp'},
+	{ name: 'Material UI', icon: '/icons/mui.svg'},
+	{ name: 'Node.js', icon: '/icons/node.png'},
+	{ name: 'Express.js', icon: '/icons/express.png'},
+	{ name: '.NET', icon: '/icons/net.png'},
+	{ name: 'FastAPI', icon: '/icons/fastapi.png'},
+	{ name: 'Flask', icon: '/icons/flask.png'},
+	{ name: 'MySQL', icon: '/icons/mysql.svg'},
+	{ name: 'MongoDB', icon: '/icons/mongodb.webp'},
+	{ name: 'Git', icon: '/icons/git.png'},
+	{ name: 'Github', icon: '/icons/github.webp'},
+	{ name: 'Postman', icon: '/icons/postman.webp'},
+	{ name: 'Expo', icon: '/icons/expo.png'},
+	{ name: 'Socket-io', icon: '/icons/socket-io.svg'},
+	{ name: 'Langchain', icon: '/icons/langchain.png'},
 ];
 
 export const certificates: Certificate[] = [
-  {
-    title: "Certificate of Paper Presentation - Taguig City University",
-    description: "Certificate for presenting the our research paper titled 'Smart E-Commerce and Inventory Management System with XGBoost Analytics for KD Motoshop' in our university",
-    images: ["/certificates/paper-presentation.png"],
-  },
-  {
-    title: "Systems Fair Best Booth",
-    description: "This certificate was awarded for presenting our project Hustle: A Service Bridge System during the Systems Fair, where our booth was recognized as the Best Booth for its innovation, creativity, and presentation.",
-    images: ["/certificates/systems-fair.jpg", "/certificates/systems-fair (1).jpg"],
-  },
-  {
-    title: "Java Competition Champion",
-    description: "This certificate was awarded for excelling in a Java programming competition during my freshman days, where I showcased strong problem-solving skills and coding proficiency.",
-    images: ["/certificates/java.jpg"],
-  },
-  {
-    title: "Introduction to Java - SoloLearn",
-    description: "This certificate was earned by completing SoloLearn's Introduction to Java course, which covered Java fundamentals such as variables, data types, control structures, and basic object-oriented programming concepts.",
-    images: ["/certificates/java-sololearn.jpg"],
-  },
+	{
+		title: "Certificate of Paper Presentation - Taguig City University",
+		description: "Certificate for presenting our research paper titled 'Smart E-Commerce and Inventory Management System with XGBoost Analytics for KD Motoshop' in our university",
+		images: ["/certificates/paper-presentation.png"],
+	},
+	{
+		title: "Systems Fair Best Booth",
+		description: "This certificate was awarded for presenting our project Hustle: A Service Bridge System during the Systems Fair, where our booth was recognized as the Best Booth for its innovation, creativity, and presentation.",
+		images: ["/certificates/systems-fair.jpg", "/certificates/systems-fair (1).jpg"],
+	},
+	{
+		title: "Java Competition Champion",
+		description: "This certificate was awarded for excelling in a Java programming competition during my freshman days, where I showcased strong problem-solving skills and coding proficiency.",
+		images: ["/certificates/java.jpg"],
+	},
+	{
+		title: "Introduction to Java - SoloLearn",
+		description: "This certificate was earned by completing SoloLearn's Introduction to Java course, which covered Java fundamentals such as variables, data types, control structures, and basic object-oriented programming concepts.",
+		images: ["/certificates/java-sololearn.jpg"],
+	},
 ];
