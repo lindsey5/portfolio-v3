@@ -3,24 +3,13 @@
 import { useState, useEffect } from "react";
 import NavButton from "../NavButton";
 import { Menu, X } from "lucide-react";
+import { scrollToSection } from "@/utils/utils";
 
 const Navbar = () => {
     const [active, setActive] = useState("home");
     const [menuOpen, setMenuOpen] = useState(false);
 
     const sections = ["home", "about", "skills", "projects", "contact"];
-
-    const scrollToSection = (id: string) => {
-        const section = document.getElementById(id);
-        if (section) {
-        section.scrollIntoView({
-            behavior: "smooth",
-            block: "start",
-        });
-        setActive(id);
-        setMenuOpen(false); // Close mobile menu on click
-        }
-    };
 
     useEffect(() => {
         const handleScroll = () => {
@@ -55,7 +44,11 @@ const Navbar = () => {
             <NavButton
                 key={section}
                 isActive={active === section}
-                onClick={() => scrollToSection(section)}
+                onClick={() => {
+                    scrollToSection(section);
+                    setActive(section);
+                    setMenuOpen(false); 
+                }}
             >
                 {section.charAt(0).toUpperCase() + section.slice(1)}
             </NavButton>

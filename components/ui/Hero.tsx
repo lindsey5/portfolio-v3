@@ -1,4 +1,5 @@
-
+'use client'
+import { scrollToSection } from "@/utils/utils"
 import BlurText from "../BlurText"
 import PixelBlast from "../PixelBlast"
 import TextType from "../TextType"
@@ -53,7 +54,7 @@ const HeroSection = () => {
                 </div>
                 <div className="relative flex space-x-4">
                     {/* Get in Touch Button */}
-                    <button className="shadow-[0_0_20px_rgba(58,12,163,0.7)] backdrop-blur-md z-50 group relative cursor-pointer px-6 py-2 rounded-lg bg-[#060010] border border-white/30 overflow-hidden">
+                    <button onClick={() => scrollToSection('contact')} className="shadow-[0_0_20px_rgba(58,12,163,0.7)] backdrop-blur-md z-50 group relative cursor-pointer px-6 py-2 rounded-lg bg-[#060010] border border-white/30 overflow-hidden">
                         {/* Glowing gradient overlay, revealed on hover */}
                         <div className="absolute inset-0 bg-gradient-to-r from-[#4B1D6F] via-[#6A3BAF] to-[#361565] opacity-0 group-hover:opacity-80 transition-opacity duration-300 rounded-lg blur-lg"></div>
                         
@@ -64,7 +65,7 @@ const HeroSection = () => {
                     </button>
 
                     {/* View My Works Button */}
-                    <button className="shadow-[0_0_20px_rgba(58,12,163,0.7)] backdrop-blur-md z-50 group relative cursor-pointer px-6 py-2 rounded-lg bg-[#060010] border border-white/30 overflow-hidden">
+                    <button onClick={() => scrollToSection('projects')} className="shadow-[0_0_20px_rgba(58,12,163,0.7)] backdrop-blur-md z-50 group relative cursor-pointer px-6 py-2 rounded-lg bg-[#060010] border border-white/30 overflow-hidden">
                         <div className="absolute inset-0 bg-gradient-to-r from-[#4B1D6F] via-[#6A3BAF] to-[#361565] opacity-0 group-hover:opacity-80 transition-opacity duration-300 rounded-lg blur-lg"></div>
                         <span className="relative text-white font-medium">
                             View my Works
