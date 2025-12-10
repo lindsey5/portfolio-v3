@@ -35,18 +35,18 @@ export const projects : Project[]= [
 				"Course and Subjects Management",
 			],
 			images: [
-				'/images/evergreen-home.png',
-				'/images/evergreen-login.png',
-				'/images/evergreen-grades.png',
-				'/images/evergreen-rankings.png',
-				'/images/evergreen-dashboard.png',
-				'/images/evergreen-students.png',
-				'/images/evergreen-edit-student.png',
-				'/images/evergreen-profile.png'
+				'/images/usgis-home.png',
+				'/images/usgis-login.png',
+				'/images/usgis-grades.png',
+				'/images/usgis-rankings.png',
+				'/images/usgis-dashboard.png',
+				'/images/usgis-students.png',
+				'/images/usgis-edit-student.png',
+				'/images/usgis-profile.png'
 
 			],
 			githubLink: 'https://github.com/lindsey5/Unified-Student-Grades-Information-System',
-			websiteLink: 'https://evergreen-college.onrender.com/'
+			websiteLink: 'https://tcu-usgis.onrender.com'
 		},
 		{
 			title: "RM Collections POS and Inventory Management System",
