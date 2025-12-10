@@ -53,11 +53,12 @@ const AboutSection = () => {
         {/* Content Section */}
         <motion.div className="md:col-span-3 space-y-12" variants={fadeInUp}>
           <div>
-            <h2 className="text-4xl font-bold text-white mb-8 tracking-wider">
+            <h2 className="text-4xl font-bold text-white tracking-wider">
               ABOUT ME
             </h2>
+            <div className="w-20 h-0.5 bg-purple-500"></div>
 
-            <p className="text-gray-400 text-sm leading-relaxed tracking-wide">
+            <p className="mt-8 text-gray-400 text-sm leading-relaxed tracking-wide">
               I'm a Fullstack Developer passionate about solving complex challenges, building scalable applications, and delivering user-friendly solutions. With a solid foundation in both frontend and backend development, I specialize in creating dynamic and efficient web applications.
             </p>
           </div>
