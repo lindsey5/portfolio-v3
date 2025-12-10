@@ -1,0 +1,338 @@
+export const projects : Project[]= [
+		{
+			title: 'Tuition Management System',
+			description: 'A comprehensive platform designed to streamline student billing, track payments, and manage tuition information efficientl.',
+			tags: ['Typescript','React.js','Tailwind CSS','Material UI','Node.js','Express.js','MongoDB'],
+			features: [
+				"Student Enrollment Management",
+				"Tuition and Payment Tracking",
+				"Overdue Payment Email Notifications",
+				"Scholarship and Discount Handling",
+				"Role-based Access Control"
+			],
+			images: [
+				'/images/tuition-home.png',
+				'/images/tuition-enrolled-subjects.png',
+				'/images/tuition-payment-history.png',
+				'/images/tuition-dashboard.png',
+				'/images/tuition-students.png',
+				'/images/tuition-payments.png',
+				'/images/tuition-receipt.png',
+				'/images/tuition-profile.png'
+			],
+			githubLink: 'https://github.com/lindsey5/TuitionManagementSystem/tree/main',
+			websiteLink: 'https://tuitionmanagementsystem.onrender.com/'
+		},
+		{
+			title: 'Unified Student Grades Information System',
+			description: 'A web-based platform designed to simplify academic management, streamline grade tracking, and empower students and faculty with real-time insights into academic performance.',
+			tags: ['Typescript','React.js', 'Tailwind CSS', 'Material UI', 'Node.js', 'Express.js', 'MongoDB'],
+			features: [
+				"Student GWA Rankings",
+				"Student Grades Management",
+				"Data Analytics Dashboard",
+				"Role-based access control",
+				"Course and Subjects Management",
+			],
+			images: [
+				'/images/evergreen-home.png',
+				'/images/evergreen-login.png',
+				'/images/evergreen-grades.png',
+				'/images/evergreen-rankings.png',
+				'/images/evergreen-dashboard.png',
+				'/images/evergreen-students.png',
+				'/images/evergreen-edit-student.png',
+				'/images/evergreen-profile.png'
+
+			],
+			githubLink: 'https://github.com/lindsey5/Unified-Student-Grades-Information-System',
+			websiteLink: 'https://evergreen-college.onrender.com/'
+		},
+		{
+			title: "RM Collections POS and Inventory Management System",
+			description: 'An intelligent system that streamlines sales and inventory management for RM Collections, featuring predictive analytics to forecast demand and optimize stock levels.',
+			tags: ['Javascript', 'Python', 'React.js', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB', 'Flask', 'RandomForest'],
+			features: [
+				"Predictive analytics for sales trends and product demand forecasting",
+				"Real-time low-stock notifications",
+				"Point of Sale System with barcode scanner",
+				"Sales Analytics Dashboard",
+				"Admin and cashier management",
+			],
+			images: [
+				"/images/rm-login.png",
+				"/images/rm-dashboard.png",
+				"/images/rm-products.png",
+				"/images/rm-product.png",
+				"/images/rm-sales.png",
+				"/images/rm-receipt.png",
+				"/images/rm-pos.png"
+			],
+			githubLink: 'https://github.com/AaronRodriguezzz/POS_INVENTORY'
+		},
+		{
+		title: 'Ballin Wear E-commerce Web Application',
+		description: 'A web-based platform that enables online product sales and efficient inventory tracking for Ballin Wear.',
+		tags: ['Javascript','React.js', 'Tailwind CSS', 'Material UI', 'Node.js', 'Express.js', 'MySQL', 'Gemini API', 'Langchain', 'Paymongo API', 'Socket.IO'],
+		features: [
+			"AI-powered chatbot using Langchain",
+			"Real-time notifications and low-stock alerts",
+			"Order status tracking",
+			"Automated email updates for orders",
+			"Payment integration using Paymongo",
+			"Products management",
+			"Orders management",
+			"Customers management",
+			"Sales analytics dashboard",
+		],
+		images: [
+			'/images/ballin-home.png',
+			'/images/ballin-login.png',
+			'/images/ballin-signup.png',
+			'/images/ballin-products.png',
+			'/images/ballin-product.png',
+			'/images/ballin-cart.png',
+			'/images/ballin-orders.png',
+			'/images/ballin-order.png',
+			'/images/ballin-checkout.png',
+			'/images/ballin-dashboard.png',
+			'/images/ballin-admin-products.png',
+			'/images/ballin-admin-orders.png'
+
+		],
+		githubLink: 'https://github.com/lindsey5/Ballin',
+	},
+	{
+		title: 'Smart E-Commerce and Inventory Management System with XGBoost Predictive Analytics for KD Motoshop',
+		description: 'A capstone project featuring an intelligent platform for managing online sales and inventory with real-time tracking, demand forecasting, and an AI-powered chatbot agent that assists customers with inquiries, product recommendations, and more.',
+		tags: ['Typescript','Python', 'React.js', 'Tailwind CSS', 'Material UI', 'Node.js', 'Express.js', 'FastAPI', 'MongoDB', 'Gemini API', 'Langchain', 'XGBoost', 'Socket.IO', 'Paymongo API', 'Facebook Graph API', 'RAG', 'Redis'],
+		features: [
+			"AI-powered chatbot using Langchain",
+			"Automated Facebook product marketing posting system powered by AI",
+			"Predictive analytics for sales trends and product demand forecasting",
+			"Real-time notifications",
+			"Order status tracking",
+			"Automated email updates for orders",
+			"Product rating and review system",
+			"Email verification for account activation",
+			"OAuth login via Google for faster access",
+			"Responsive design for mobile and desktop",
+			"Payment integration using Paymongo",
+			"Light and dark mode theme",
+			"Customer refund submission",
+			"Products management",
+			"Orders management",
+			"Supplier Management",
+			"Purchase Order Management",
+			"Activity logs for admin actions",
+			"Sales analytics dashboard",
+		],
+		images: [
+			"/images/kd-home.png",
+			"/images/kd-products.png",
+			"/images/kd-product.png",
+			"/images/kd-orders.png",
+			"/images/kd-order.png",
+			"/images/kd-cart.png",
+			"/images/kd-dashboard.png",
+			"/images/kd-admin-products.png",
+			"/images/kd-edit-product.png",
+			"/images/kd-admin-orders.png",
+			"/images/kd-add-order.png",
+			"/images/kd-activity.png"
+		],
+		githubLink: 'https://github.com/lindsey5/KDMotoshop',
+		websiteLink: 'https://kdmotoshop.onrender.com/'
+	},
+	{
+		title: 'E-commerce App',
+		description: 'A e-commerce application that allows users to browse products, place orders, and receive instant updates',
+		tags: ['React Native', 'React', 'Node.js', 'Express.js', 'Socket.IO'],
+		features: [
+			'User authentication and registration',
+			'Product browsing and search functionality',
+			'Order status updates',
+			'Cart and checkout system',
+			'Payment Integration',
+			'Admin panel for managing products and orders'
+		],
+		images: [
+			'/images/e-commerce.png',
+			'/images/e-commerce-2.png',
+		],
+		githubLink: 'https://github.com/lindsey5/E-commerce-App'
+	},
+	{
+		title: 'Sip & Serve',
+		description: 'A user-friendly café management system that streamlines daily operations—from order processing to sales reporting.',
+		features: [
+			'Analytics Dashboard',
+			'Order Management',
+			'Product Management',
+			'Daily Sales Reports',
+			'User Authentication',
+		],
+		tags: ['React', 'C#', 'ASP.net', 'MySQL', 'Tailwind CSS', 'Material UI'],
+		images: ["/images/cafe-login.png", "/images/cafe-menu.png", "/images/cafe-receipt.png", "/images/cafe-dashboard.png", "/images/cafe-item.png",
+		],
+		githubLink: 'https://github.com/lindsey5/Cafe-Management-System',
+	},
+	{
+		title: 'Projex',
+		description: 'An AI-powered project management system featuring voice recognition, task tracking, team collaboration, and real-time updates—designed for maximum efficiency and scalability.',
+		tags: ['React', 'C#', 'ASP.net', 'MySQL', 'Tailwind CSS', 'Material UI', 'Signal R', 'Gemini API'],
+		features: [
+			'Project Analytics Dashboard',
+			'Task Management',
+			'AI Chatbot with Voice Recognition',
+			'Real-Time Notification',
+			'User Authentication',
+			'Team Collaboration Tools',
+			'Role-Based Access Control',
+			'Activity Logs',
+			'File Sharing & Attachment Support',
+			'Task Prioritization & Deadlines',
+			'Progress Tracking with Kanban View',
+			'Calendar Integration',
+			'Commenting System',
+		],
+		images: ["/images/projex-tasks.png", "/images/projex-home.png", "/images/projex-dashboard.png", "/images/projex-team.png", "/images/projex-notifications.png"
+    	],
+		githubLink: 'https://github.com/lindsey5/Project-Management-System_Backend',
+	},
+	{
+		title: 'Palar Integration School Webiste',
+		description: "A static, informational website that presents Palar Integration School’s programs, announcements, and more.",
+		tags: ['Next.js'],
+		features: [],
+		images: [
+			"/images/palar-home.png",
+			"/images/palar-why-choose-us.png",
+			"/images/palar-campus.png",
+			"/images/palar-academics.png",
+		],
+		githubLink: "https://github.com/lindsey5/Palar-Integrated-School",
+		websiteLink: "https://palarintegratedschool.vercel.app"
+	},
+	{
+		title: 'Hustle: A Service Bridge System',
+		description: 'A freelance platform that offers various services and connects clients with service providers for task-based jobs.',
+		tags: ['React', 'Node.js', 'Express.js', 'MySQL', 'Socket.IO', 'Paymongo API', 'Gemini API'],
+		features: [
+			'Real-time chat',
+			'Real-time notification',
+			'Use authentication',
+			'Service browsing and filtering',
+			'AI chatbot',
+			'Payment integration',
+			'Task progress tracking',
+			'Rating and review system',
+		],
+		images: [
+			"/images/hustle-home.png",
+			"/images/hustle-home (1).png",
+			"/images/hustle-search.png",
+			"/images/hustle-select.png",
+			"/images/hustle-dashboard.png",
+			"/images/hustle-messages.png",
+			"/images/hustle-reviews.png",
+      ],
+		githubLink: 'https://github.com/lindsey5/servicebridgesystem',
+		websiteLink: 'https://hustle-31v6.onrender.com'
+	},
+	{
+		title: 'Cloudpeak Airlines',
+		description: 'An airline management system designed for seamless booking and scheduling for flights.',
+		tags: ['React', 'Node.js', 'Express.js', 'MongoDb', 'Socket.IO', 'Paymongo API', 'Gemini API'],
+		features: [
+			'Flight booking and ticketing system',
+			'Real-time seat availability tracking',
+			'Flight schedule management',
+			'Payment integration',
+			'Real-time notifications',
+			'AI chatbot for travel inquiries',
+			'Admin dashboard',
+			'User authentication and role-based access',
+			'Search and filter by flight routes and time',
+			'E-ticket generation and download'
+		],
+		images: [
+			"/images/airline-home.png",
+			"/images/airline-pop-cities.png",
+			"/images/airline-flights.png",
+			"/images/airline-search.png",
+			"/images/airline-tier.png",
+			"/images/airline-summary.png",
+			"/images/airline-payment.png",
+			"/images/airline-tickets.png",
+		],
+		githubLink: 'https://github.com/lindsey5/airlinereservationsystem',
+		websiteLink: 'https://cloudpeakairlines.onrender.com/'
+	},
+	{
+		title: 'Silver Stone Hotel',
+		description: 'A user-friendly solution for managing hotel operations, including room bookings, guest check-ins/outs and billing',
+		tags: ['React', 'Node.js', 'Express.js', 'MySQL', 'Socket.IO', 'Paymongo API', 'Gemini API'],
+		features: [
+			'Room booking and reservation system',
+			'Guest check-in/check-out management',
+			'Payment integration',
+			'User authentication and role-based access',
+			'Role-based access',
+			'AI-powered virtual assistant',
+			'Search and filter by room type, price, and status'
+		],
+		images: [
+			"/images/hotel-home.png",
+			"/images/hotel-home (1).png",
+			"/images/hotel-areas.png",
+			"/images/hotel-search.png"
+		],
+		githubLink: 'https://github.com/gon2004/SS-Hotel',
+		websiteLink: 'https://ss-hotel.onrender.com'
+	},
+	{
+		title: 'Library Management System',
+		description: 'A comprehensive platform for managing library operations with key features like book borrowing and returns, digital viewing for books, history tracking, and efficient book management.',
+		tags: ['Java', 'Java Swing', 'MySQL'],
+		features: [
+			'Book borrowing and return system',
+			'Borrowing history tracking',
+			'Late return alerts and due date notifications',
+			'Books management',
+			'Role-based access',
+		],
+		images: [
+			"/images/library-phy.png",
+			"/images/library-dig.png",
+			"/images/library-dashboard.png",
+		],
+		githubLink: 'https://github.com/lindsey5/librarymanagementsystem'
+	},
+	{
+		title: 'Point of Sale System',
+		description: 'A robust and efficient system designed to streamline sales, and track transactions. It helps businesses improve efficiency and deliver a seamless customer experience.',
+		tags: ['Java', 'Java Swing', 'MySQL'],
+		features: [
+			'Product management',
+			'Sales tracking',
+			'Transaction history',
+			'Sales reports',
+		],
+		images: [
+			"/images/pos-home.jpg",
+			"/images/pos-dashboard.jpg",
+			"/images/pos-history.jpg",
+			"/images/pos-reports.jpg",
+		],
+		githubLink: 'https://github.com/lindsey5/Java-Projects/tree/main/PointOfSaleSystem'
+	},
+	{
+		title: 'Dinosaur Game',
+		description: 'A simple game where players control a dinosaur that must jump over obstacles (like cacti and birds) as it runs through a desert landscape.',
+		tags: ['Java', 'Java Swing'],
+		features: [],
+		images: ["/images/dinosaur.png"],
+		githubLink: 'https://github.com/lindsey5/Java-Projects/tree/main/Game/src/DinosaurGame'
+	},
+];
