@@ -8,7 +8,7 @@ const Navbar = () => {
     const [active, setActive] = useState("home");
     const [menuOpen, setMenuOpen] = useState(false);
 
-    const sections = ["home", "about", "projects", "contact"];
+    const sections = ["home", "about", "skills", "projects", "contact"];
 
     const scrollToSection = (id: string) => {
         const section = document.getElementById(id);
