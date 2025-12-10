@@ -336,3 +336,55 @@ export const projects : Project[]= [
 		githubLink: 'https://github.com/lindsey5/Java-Projects/tree/main/Game/src/DinosaurGame'
 	},
 ];
+
+export const skills: Skill[] = [
+  { name: 'HTML', icon: '/icons/html.png'},
+  { name: 'CSS', icon: '/icons/css.png'},
+  { name: 'Javascript', icon: '/icons/js.svg' },
+  { name: 'TypeScript', icon: '/icons/ts.png' },
+  { name: 'Tailwind CSS', icon: '/icons/tailwind.png' },
+  { name: 'Java', icon: '/icons/java.png' },
+  { name: 'C#', icon: '/icons/cs.png' },
+  { name: 'Python', icon: '/icons/python.webp'},
+  { name: 'VB.net', icon: '/icons/vb.png'},
+  { name: 'PHP', icon: '/icons/php.png'},
+  { name: 'React.js', icon: '/icons/react.webp'},
+  { name: 'Next.js', icon: '/icons/next.webp'},
+  { name: 'Material UI', icon: '/icons/mui.svg'},
+  { name: 'Node.js', icon: '/icons/node.png'},
+  { name: 'Express.js', icon: '/icons/express.png'},
+  { name: '.NET', icon: '/icons/net.png'},
+  { name: 'FastAPI', icon: '/icons/fastapi.png'},
+  { name: 'Flask', icon: '/icons/flask.png'},
+  { name: 'MySQL', icon: '/icons/mysql.svg'},
+  { name: 'MongoDB', icon: '/icons/mongodb.webp'},
+  { name: 'Git', icon: '/icons/git.png'},
+  { name: 'Github', icon: '/icons/github.webp'},
+  { name: 'Postman', icon: '/icons/postman.webp'},
+  { name: 'Expo', icon: '/icons/expo.png'},
+  { name: 'Socket-io', icon: '/icons/socket-io.svg'},
+  { name: 'Langchain', icon: '/icons/langchain.png'},
+];
+
+export const certificates: Certificate[] = [
+  {
+    title: "Certificate of Paper Presentation - Taguig City University",
+    description: "Certificate for presenting the our research paper titled 'Smart E-Commerce and Inventory Management System with XGBoost Analytics for KD Motoshop' in our university",
+    images: ["/certificates/paper-presentation.png"],
+  },
+  {
+    title: "Systems Fair Best Booth",
+    description: "This certificate was awarded for presenting our project Hustle: A Service Bridge System during the Systems Fair, where our booth was recognized as the Best Booth for its innovation, creativity, and presentation.",
+    images: ["/certificates/systems-fair.jpg", "/certificates/systems-fair (1).jpg"],
+  },
+  {
+    title: "Java Competition Champion",
+    description: "This certificate was awarded for excelling in a Java programming competition during my freshman days, where I showcased strong problem-solving skills and coding proficiency.",
+    images: ["/certificates/java.jpg"],
+  },
+  {
+    title: "Introduction to Java - SoloLearn",
+    description: "This certificate was earned by completing SoloLearn's Introduction to Java course, which covered Java fundamentals such as variables, data types, control structures, and basic object-oriented programming concepts.",
+    images: ["/certificates/java-sololearn.jpg"],
+  },
+];

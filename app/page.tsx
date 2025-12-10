@@ -1,4 +1,5 @@
 import AboutSection from "@/components/ui/About";
+import CertificatesSection from "@/components/ui/Certificates";
 import ContactSection from "@/components/ui/Contact";
 import HeroSection from "@/components/ui/Hero";
 import Navbar from "@/components/ui/Navbar";
@@ -11,6 +12,7 @@ export default function Home() {
     <Navbar />
     <HeroSection />
     <AboutSection />
+    <CertificatesSection />
     <SkillsSection />
     <ProjectsSection />
     <ContactSection />

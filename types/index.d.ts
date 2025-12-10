@@ -7,3 +7,14 @@ interface Project {
   githubLink: string;
   websiteLink?: string;
 }
+
+interface Skill {
+  name: string;
+  icon: string;
+}
+
+interface Certificate {
+  title: string;
+  description: string;
+  images: string[];
+}

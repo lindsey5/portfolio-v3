@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { projects } from '@/data/projects';
+import { projects } from '@/data';
 import ProjectModal from './ProjectModal';
 import Image from 'next/image';
 

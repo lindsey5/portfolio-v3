@@ -1,39 +1,6 @@
 'use client'
+import { skills } from '@/data';
 import { motion } from 'framer-motion';
-
-interface Skill {
-  name: string;
-  icon: string;
-}
-
-const skills: Skill[] = [
-  { name: 'HTML', icon: '/icons/html.png'},
-  { name: 'CSS', icon: '/icons/css.png'},
-  { name: 'Javascript', icon: '/icons/js.svg' },
-  { name: 'TypeScript', icon: '/icons/ts.png' },
-  { name: 'Tailwind CSS', icon: '/icons/tailwind.png' },
-  { name: 'Java', icon: '/icons/java.png' },
-  { name: 'C#', icon: '/icons/cs.png' },
-  { name: 'Python', icon: '/icons/python.webp'},
-  { name: 'VB.net', icon: '/icons/vb.png'},
-  { name: 'PHP', icon: '/icons/php.png'},
-  { name: 'React.js', icon: '/icons/react.webp'},
-  { name: 'Next.js', icon: '/icons/next.webp'},
-  { name: 'Material UI', icon: '/icons/mui.svg'},
-  { name: 'Node.js', icon: '/icons/node.png'},
-  { name: 'Express.js', icon: '/icons/express.png'},
-  { name: '.NET', icon: '/icons/net.png'},
-  { name: 'FastAPI', icon: '/icons/fastapi.png'},
-  { name: 'Flask', icon: '/icons/flask.png'},
-  { name: 'MySQL', icon: '/icons/mysql.svg'},
-  { name: 'MongoDB', icon: '/icons/mongodb.webp'},
-  { name: 'Git', icon: '/icons/git.png'},
-  { name: 'Github', icon: '/icons/github.webp'},
-  { name: 'Postman', icon: '/icons/postman.webp'},
-  { name: 'Expo', icon: '/icons/expo.png'},
-  { name: 'Socket-io', icon: '/icons/socket-io.svg'},
-  { name: 'Langchain', icon: '/icons/langchain.png'},
-];
 
 const SkillsSection = () => {
   return (
