@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Orbitron, Fira_Code } from "next/font/google";
 import "./globals.css";
+import Logo from "@/components/Logo";
 
 // Futuristic font for headings
 const orbitron = Orbitron({
@@ -30,6 +31,9 @@ export default function RootLayout({
       <body
         className={`${orbitron.variable} ${firaCode.variable} antialiased text-white bg-[#060010]`}
       >
+        <div className="fixed top-3 left-5 w-15 h-15 z-20">
+            <Logo />
+        </div>
         {children}
       </body>
     </html>

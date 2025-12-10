@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import NavButton from "../NavButton";
 import { Menu, X } from "lucide-react";
 import { scrollToSection } from "@/utils/utils";
+import Logo from "../Logo";
 
 const Navbar = () => {
     const [active, setActive] = useState("home");
@@ -56,23 +57,12 @@ const Navbar = () => {
         </nav>
 
         {/* Mobile Navbar */}
-        <nav
-            className="
-            md:hidden
-            fixed top-5 left-1/2 transform -translate-x-1/2
-            w-[90%] bg-[#060010] border border-white/20 rounded-b-lg
-            shadow-[0_0_20px_rgba(58,12,163,0.7)] backdrop-blur-md z-50
-            flex items-center justify-between px-4 py-2
-            "
-        >
-            <div className="text-white font-bold">Lindsey</div>
-            <button
+        <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className="text-white focus:outline-none"
+            className="fixed top-5 right-5  z-20 md:hidden text-white focus:outline-none"
             >
             {menuOpen ? <X size={28} /> : <Menu size={28} />}
-            </button>
-        </nav>
+        </button>
 
         {/* Mobile Menu Links with animation */}
         <div
