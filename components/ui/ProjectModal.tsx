@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 interface ProjectModalProps {
     project: Project;
@@ -51,10 +52,11 @@ export default function ProjectModal({ project, close }: ProjectModalProps) {
             {/* Image Carousel */}
             <div className="relative">
                 <div className="relative min-h-96 overflow-hidden border border-purple-500/20">
-                <img
+                <Image
                     src={project.images[currentImageIndex]}
                     alt={`${project.title} ${currentImageIndex + 1}`}
-                    className="w-full h-full"
+                    fill
+                    className="w-full h-full object-cover"
                 />
                 </div>
 

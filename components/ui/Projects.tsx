@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { projects } from '@/data/projects';
 import ProjectModal from './ProjectModal';
+import Image from 'next/image';
 
 const ProjectsSection = () => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
@@ -62,11 +63,12 @@ const ProjectsSection = () => {
               >
                 {/* Image Section */}
                 <div className="w-full md:w-1/2">
-                  <div className="relative overflow-hidden border border-purple-500/20 group-hover:border-purple-500/50 transition-all duration-300">
-                    <img
+                  <div className="relative h-80 overflow-hidden border border-purple-500/20 group-hover:border-purple-500/50 transition-all duration-300">
+                    <Image
                       src={project.images[0]}
                       alt={project.title}
-                      className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500"
+                      fill
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#060010] to-transparent opacity-40"></div>
                   </div>
