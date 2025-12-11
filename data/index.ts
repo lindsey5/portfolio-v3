@@ -145,6 +145,31 @@ export const projects : Project[]= [
 		websiteLink: 'https://kdmotoshop.onrender.com/'
 	},
 	{
+		title: 'AI Powered Gym Management System',
+		description:
+			'A full-featured gym management platform designed to streamline membership handling, equipment tracking, and day-to-day operations. ',
+		tags: ['Javascript', 'React.js', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB', 'Langchain'],
+		features: [
+			'Analytics Dashboard',
+			'BMI Calculator',
+			'Membership Registration',
+			'Members and equipments management',
+			'Borrowing and Returning of equipments',
+			'Real time notifications',
+			'AI chatbot'
+		],
+		images: [
+			'/images/gym-home.png',
+			'/images/gym-bmi.png',
+			'/images/gym-registration.png',
+			'/images/gym-dashboard.png',
+			'/images/gym-members.png',
+			'/images/gym-borrow-history.png',
+			'/images/gym-equipments.png'
+		],
+		githubLink: 'https://github.com/AaronRodriguezzz/GymThesis'
+	},
+	{
 		title: 'E-commerce App',
 		description: 'A e-commerce application that allows users to browse products, place orders, and receive instant updates',
 		tags: ['React Native', 'React', 'Node.js', 'Express.js', 'Socket.IO'],
