@@ -107,10 +107,11 @@ export const projects : Project[]= [
 		description: 'A capstone project featuring an intelligent platform for managing online sales and inventory with real-time tracking, demand forecasting, and an AI-powered chatbot agent that assists customers with inquiries, product recommendations, and more.',
 		tags: ['Typescript','Python', 'React.js', 'Tailwind CSS', 'Material UI', 'Node.js', 'Express.js', 'FastAPI', 'MongoDB', 'Gemini API', 'Langchain', 'XGBoost', 'Socket.IO', 'Paymongo API', 'Facebook Graph API', 'RAG', 'Redis'],
 		features: [
-			"AI-powered chatbot using Langchain",
+			"Chatbot with Retrieval-Augmented Generation (RAG) capabilities",
 			"Automated Facebook product marketing posting system powered by AI",
 			"Predictive analytics for sales trends and product demand forecasting",
-			"Real-time notifications",
+			"Real-time and email notifications",
+			"Automatic alerts via system and email for low inventory",
 			"Order status tracking",
 			"Automated email updates for orders",
 			"Product rating and review system",
@@ -122,8 +123,8 @@ export const projects : Project[]= [
 			"Customer refund submission",
 			"Products management",
 			"Orders management",
-			"Supplier Management",
-			"Purchase Order Management",
+			"Supplier and Purchase Order Management",
+    		"Voucher code application system",
 			"Activity logs for admin actions",
 			"Sales analytics dashboard",
 		],
@@ -156,7 +157,7 @@ export const projects : Project[]= [
 			'Members and equipments management',
 			'Borrowing and Returning of equipments',
 			'Real time notifications',
-			'AI chatbot'
+			'AI-powered chatbot using langchain'
 		],
 		images: [
 			'/images/gym-home.png',
@@ -172,7 +173,7 @@ export const projects : Project[]= [
 	{
 		title: 'E-commerce App',
 		description: 'A e-commerce application that allows users to browse products, place orders, and receive instant updates',
-		tags: ['React Native', 'React', 'Node.js', 'Express.js', 'Socket.IO'],
+		tags: ['React Native', 'React', 'Node.js', 'Express.js', 'Socket.IO', 'Langchain'],
 		features: [
 			'User authentication and registration',
 			'Product browsing and search functionality',
