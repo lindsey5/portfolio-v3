@@ -7,7 +7,7 @@ export const projects : Project[]= [
 			"Chatbot with Retrieval-Augmented Generation (RAG) capabilities",
 			"Automated Facebook product marketing posting system powered by AI",
 			"Predictive analytics for sales trends and product demand forecasting",
-			"Real-time and email notifications",
+			"Real-time notifications",
 			"Automatic alerts via system and email for low inventory",
 			"Order status tracking",
 			"Automated email updates for orders",
